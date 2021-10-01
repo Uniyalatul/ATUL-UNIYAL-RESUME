@@ -85,24 +85,24 @@ ul.nav-items{
     /* border : 2px solid yellow; */
     font-weight : 400;
     float :left;
-    width :48%;
+    width :66%;
 }
 
 li.nav-item{
     display : inline-block;
-    margin : 2rem 5rem;
-    letter-spacing: .14rem;
+    margin : 2em 5em;
+    letter-spacing: .14em;
     text-transform: uppercase;
 }
 
 h1.logo{
     text-align : right;
-    margin-top : 2rem;
+    margin-top : .52em;
     color :white;
     /* border : 2px solid red; */
     font-weight : 700;
     float :left;
-    width : 50%;
+    width : 32%;
 }
 
 li.nav-item a{
@@ -126,7 +126,7 @@ li.nav-item a{
 }
 
 .navbar a{
-    padding-bottom : 0.3rem;
+    padding-bottom : 0.3em;
 }
 
 .navbar a:hover{
@@ -163,7 +163,7 @@ li.nav-item a{
 /*      #################### ABOUT PAGE ############ */
 
 .about-mid .head{
-    letter-spacing: 0.18rem;
+    letter-spacing: 0.18em;
     border-bottom : 2.5px solid #333333;
     padding-bottom : .01em;
     padding-top : .5em;
@@ -172,7 +172,7 @@ li.nav-item a{
 }
 
 .about-mid .name{
-    letter-spacing: 0.18rem;
+    letter-spacing: 0.18em;
     padding-top : 2em;
     font-weight :500;
 }
@@ -270,6 +270,7 @@ footer{
     html{
         font-size : 50%;
     }
+   
 }
 
 @media (max-width : 610px)
@@ -277,18 +278,23 @@ footer{
     html{
         font-size : 45%;
     }
+ 
 }
 
 @media (max-width : 545px)
 {
     html{
-        font-size : 35%;
+        font-size : 45%;
     }
-}
-
-@media (max-width : 545px)
-{
-    html{
-        font-size : 25%;
+    li.nav-item{
+        display : inline-block;
+        margin : 2em 3em;
+        letter-spacing: .14em;
+        text-transform: uppercase;
+    }
+    .container .footer-icon{
+        color : white;
+        /* border : 2px solid white; */
+        margin : .18em 0.7em;
     }
 }
